@@ -21,7 +21,7 @@ def punto_fijo_acelerado(g, tol, x0, max_iter):
 
 
 g = lambda x: (10 - x**3)**0.5 / 2
-tolerancia = 1e-6
+tolerancia = 1e-9
 x0 = 1
 max_iter = 1000
 resultado = punto_fijo_acelerado(g, tolerancia, x0, max_iter)

@@ -19,7 +19,7 @@ def metodo_secante(f,tol,x1,x2):
 fx  = lambda x: x**3 + 4*(x**2) - 10
 
 ## Definir tol
-tol = 1e-6
+tol = 1e-9
 
 ## Definir el intervalo
 x1= 1
